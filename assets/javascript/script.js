@@ -159,7 +159,7 @@ function loadPropiedadesVenta(){
 contenedor.innerHTML = propVenta; // carga la variable global al html, de esta manera se actualiza solo una vez el DOM
 }
 
-/* funcion para cargar las propiedades en venta */
+/* funcion para cargar las propiedades en alquiler */
 function loadPropiedadesAlquiler(){
     const contenedor = document.getElementById("contenedor-alquiler");
     let propAlquiler = '' // variable global
